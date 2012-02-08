@@ -81,6 +81,7 @@
 		switch (forwardGeocoder.status) {
 			case G_GEO_BAD_KEY:
 				message = @"The API key is invalid.";
+                NSLog(@"The API key is invalid.");
 				break;
 				
 			case G_GEO_UNKNOWN_ADDRESS:
